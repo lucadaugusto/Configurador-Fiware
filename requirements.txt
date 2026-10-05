@@ -1,0 +1,8 @@
+# fiware_provisioner.py usa apenas a biblioteca padrão do Python 3.8+.
+# Não há pacotes do PyPI a instalar: este arquivo existe para que
+# "pip install -r requirements.txt" funcione sem erro.
+#
+# Única dependência externa: Tkinter, que NÃO se instala pelo pip.
+#   Windows/macOS: incluído no instalador do python.org
+#   Ubuntu/Debian: sudo apt install python3-tk
+#   Fedora:        sudo dnf install python3-tkinter
